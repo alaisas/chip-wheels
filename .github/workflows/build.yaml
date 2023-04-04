@@ -145,3 +145,4 @@ jobs:
                   python3 -m twine upload out/controller/python/home_assistant_chip_clusters-${{ needs.build_prepare.outputs.version }}-py3-none-any.whl --skip-existing
                   python3 -m twine upload out/controller/python/home_assistant_chip_core-${{ needs.build_prepare.outputs.version }}-cp37-abi3-manylinux_2_31_${{ matrix.arch.name }}.whl --skip-existing
                   python3 -m twine upload out/controller/python/home_assistant_chip_repl-${{ needs.build_prepare.outputs.version }}-py3-none-any.whl --skip-existing
+
